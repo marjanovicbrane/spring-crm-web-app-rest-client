@@ -1,0 +1,5 @@
+
+<!-- WE WILL NOW REDIRECT OUR PAGE TO THIS MAPPING: customer/list 
+SO WE CAN AUTOMATICALLY HAVE ALL OUR CUSTOMER OBJECTS LOADED FROM THE DATABASE -->
+
+<% response.sendRedirect("customer/list"); %>
