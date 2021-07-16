@@ -21,7 +21,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 //Classpath is a parameter in the Java Virtual Machine or the Java compiler 
 //that specifies the location of user-defined classes and packages. 
 //The parameter may be set either on the command-line, or through an environment variable.
-@PropertySource({ "classpath:persistence-mysql.properties" })
+@PropertySource({ "classpath:application.properties" })
 //with this interface WebMvcConfigurer we can make our custom configuration for SPRING MVC
 //all methods are default methods, which are not implemented in this class
 //Evrey class which have this annotation @EnableWebMvc can implement this interface WebMvcConfigurer
